@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "SistemaSenhas/1.0.0": {
+        "dependencies": {
+          "System.Speech": "9.0.7"
+        },
+        "runtime": {
+          "SistemaSenhas.dll": {}
+        }
+      },
+      "System.Speech/9.0.7": {
+        "runtime": {
+          "lib/net9.0/System.Speech.dll": {
+            "assemblyVersion": "9.0.0.7",
+            "fileVersion": "9.0.725.31616"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net9.0/System.Speech.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "9.0.0.7",
+            "fileVersion": "9.0.725.31616"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SistemaSenhas/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Speech/9.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EYnOurHxVxIx4OpHj0roSXIltuN41EZI77CVHJ/rxEOYPHV/9EsD+zVtTkOLWPcLJZnZqxVw2MGhai+op3oQGQ==",
+      "path": "system.speech/9.0.7",
+      "hashPath": "system.speech.9.0.7.nupkg.sha512"
+    }
+  }
+}
